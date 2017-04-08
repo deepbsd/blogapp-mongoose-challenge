@@ -1,7 +1,7 @@
 {
   "name": "blog-app-challenge",
   "version": "1.0.0",
-  "description": "Thinkful Blogging App Challenge",
+  "description": "Thinkful Blogging App With Mongo/Mongoose Challenge",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -14,14 +14,15 @@
     "uuid": "^2.0.3",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "mongoose": "^4.7.2"
   },
     "engines": {
     "node": "4.4.3"
   },
     "repository": {
     "type": "git",
-    "url": "https://github.com/deepbsd/Blog-app-challenge"
+    "url": "https://github.com/deepbsd/blogapp-mongoose-challenge"
   },
   "keywords": [
     "blogging-app",
