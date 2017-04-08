@@ -37,7 +37,7 @@ app.get('/posts', (req, res) => {
 
 app.get('/posts/:id', (req, res) => {
   Blogpost
-    .findById(req.paramas.id)
+    .findById(req.params.id)
     .exec()
     .then(post => res.json(post.apiRepr()))
     .catch(err => {
