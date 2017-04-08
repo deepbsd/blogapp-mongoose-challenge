@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 
 // Set up the blogpostSchema...
 const blogpostSchema = mongoose.Schema ({
-  title: {type: String, required: true},
-  content: {type: String},
   author: {
     // Had to fix this too...
     firstName: String,
     lastName: String
   },
+  title: {type: String, required: true},
+  content: {type: String},
   // Had to fix this...
   created: {type: Date, default: Date.now}
 });
@@ -20,7 +20,7 @@ blogpostSchema.virtual('authorName').get(function(){
 });
 
 // This apiRepr method will be used a lot
-blogpostSchema.methods.apiRepr = function(){
+blogpostSchema.methods.apiRepr = function() {
   return {
     id: this._id,
     title: this.title,
