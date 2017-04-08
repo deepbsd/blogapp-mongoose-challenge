@@ -1,33 +1,33 @@
 {
-  "name": "node-restaurants-mongoose",
+  "name": "blog-app-challenge",
   "version": "1.0.0",
-  "description": "challenge that adds mongo/mongoose to blog post challenge",
-  "main": "index.js",
+  "description": "Thinkful Blogging App Challenge",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "David S. Jackson",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongoose": "^4.7.2",
-    "morgan": "^1.7.0"
-  },
-  "devDependencies": {
+    "express": "^4.12.4",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.3",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
-    "faker": "^3.1.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.1.2"
   },
-  "repository": {
+    "engines": {
+    "node": "4.4.3"
+  },
+    "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/deepbsd/blogapp-mongoose-challenge.git"
+    "url": "https://github.com/deepbsd/Blog-app-challenge"
   },
-  "bugs": {
-    "url": "https://github.com/deepbsd/blogapp-mongoose-challenge/issues"
-  },
-  "homepage": "https://github.com/deepbsd/blogapp-mongoose-challenge#readme"
+  "keywords": [
+    "blogging-app",
+    "thinkful",
+    "challenge"
+  ],
+  "author": "David S. Jackson",
+  "license": "MIT"
 }
