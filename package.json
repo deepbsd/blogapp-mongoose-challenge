@@ -1,5 +1,5 @@
 {
-  "name": "blog-app-challenge",
+  "name": "blogapp",
   "version": "1.0.0",
   "description": "Thinkful Blogging App With Mongo/Mongoose Challenge",
   "main": "server.js",
