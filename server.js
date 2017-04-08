@@ -4,7 +4,7 @@ const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 
-
+mongoose.Promise = global.Promise;
 
 const {PORT, DATABASE_URL} = require('./config');
 const {Blogpost} = require('./model');
@@ -14,7 +14,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(morgan('common'));
 
-mongoose.Promise = global.Promise;
+
 
 
 // Here's the basic endpoint
